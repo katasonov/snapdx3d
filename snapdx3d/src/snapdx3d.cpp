@@ -5,6 +5,10 @@
 
 DWORD WINAPI MainLoop(LPVOID) {
 	// Тут запускаем наш event loop
-
+	::MessageBoxA(NULL, "Hello from snapdx3d.dll", "", MB_OK);
+	while (1)
+	{
+		Sleep(1000);
+	}
 	return 0L;
 }
